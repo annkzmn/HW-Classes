@@ -20,3 +20,6 @@ def test_first():
         response = requests.get(url)
         print(response.json())
         print(response.status_code)
+
+    def test_second():
+        pass
